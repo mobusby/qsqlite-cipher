@@ -1,0 +1,10 @@
+Qsqlcipher is a plugin and driver for Qt enabling applications to read/write to sqlcipher databases.  Sqlcipher itself is an implementation of sqlite supporting AES-256 encryption via openSSL.  Sqlite is in the public domain, sqlcipher is licensed under a BSD-style license.  This plugin and driver is based on, and uses code from, the sqlite plugin and driver distributed with Qt, which is licensed under the LGPL.
+
+To create the qsqlcipher plugin and driver follow these simple steps:
+    1. Download the sqlcipher source
+    2. Call build.sh with paths to qsqlcipher source and sqlcipher source
+       $ ./build.sh /path/to/qsqlite-cipher/source /path/to/sqlcipher/source
+This will install sqlcipher as sqlite3-cipher in the "driver" directory of the qsqlite-cipher source.
+
+All of the code used to create this plugin is based on, or even copied from, the vanilla Qt SQLite plugin.  As such, it is licensed under Qt's LGPL v2.1 license.  My own contributions are placed in the public domain.
+

@@ -1,0 +1,16 @@
+Makefile
+MAKEFILE
+makefile
+*.pro.user
+moc_*.cpp
+*.o
+*.so
+*.so.*
+*.dll
+*.exe
+*.autosave
+bin
+include
+lib
+*.db
+
