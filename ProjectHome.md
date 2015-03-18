@@ -1,0 +1,1 @@
+Qt supports SQL through the use of plugins and drivers.  This project uses Qt's stock SQLite plugin as a base and implements a QSQL plugin with support for AES-256 encryption.  Instead of vanilla SQLite, the driver is SQLCipher, an implementation of SQLite including AES-256 encryption using OpenSSL.
